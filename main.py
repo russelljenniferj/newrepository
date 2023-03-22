@@ -18,7 +18,7 @@ def encode(passcode):
 
 
 def decode(encoded):  # partner fills this in
-    pass
+    # test
 
 
 def main():
