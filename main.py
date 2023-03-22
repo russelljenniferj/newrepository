@@ -18,7 +18,12 @@ def encode(passcode):
 
 
 def decode(encoded):  # partner fills this in
-    # test
+    # testing code
+    decoded = ''
+    for x in encoded:
+        num = int(x)-3
+        decoded += str(num)
+    return decoded
 
 
 def main():
